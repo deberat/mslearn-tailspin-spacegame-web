@@ -1,6 +1,6 @@
 #DBE
 trigger:
-  - *
+  - master
   
   pool:
     vmImage: 'ubuntu-16.04'
