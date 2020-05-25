@@ -2,8 +2,10 @@
 trigger:
   - '*'
 
+stages:
+  - stage: stage1
   jobs:
-    -job: job1
+    - job: job1
   pool:
     vmImage: 'ubuntu-16.04'
     demands:
